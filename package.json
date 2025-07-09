@@ -1,0 +1,74 @@
+{
+	"name": "shiny-command-line",
+	"version": "1.0.0",
+	"description": "🌟 Pretty command line formatter with intelligent multiline display, operator detection, flag formatting, and syntax highlighting",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch",
+		"test": "node --test",
+		"lint": "biome check --write --unsafe",
+		"prepare": "npm run build",
+		"demo": "node demo/demo.js",
+		"release": "semantic-release",
+		"release:dry-run": "semantic-release --dry-run"
+	},
+	"keywords": [
+		"command-line",
+		"cli",
+		"prettify",
+		"format",
+		"shell",
+		"bash",
+		"multiline",
+		"operators",
+		"parsing",
+		"terminal",
+		"pretty",
+		"display",
+		"developer-tools",
+		"flags",
+		"syntax-highlighting",
+		"docker",
+		"formatting"
+	],
+	"author": "Steven Pribilinskiy",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/steven-pribilinskiy/shiny-command-line.git"
+	},
+	"bugs": {
+		"url": "https://github.com/steven-pribilinskiy/shiny-command-line/issues"
+	},
+	"homepage": "https://github.com/steven-pribilinskiy/shiny-command-line#readme",
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"chalk": "^5.4.1",
+		"shell-quote": "^1.8.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.1.1",
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/github": "^11.0.3",
+		"@semantic-release/npm": "^12.0.2",
+		"@types/chalk": "^0.4.31",
+		"@types/node": "^24.0.12",
+		"@types/shell-quote": "^1.7.5",
+		"semantic-release": "^24.2.6",
+		"typescript": "^5.8.3"
+	},
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE"
+	]
+}
