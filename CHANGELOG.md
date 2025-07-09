@@ -1,3 +1,10 @@
+# 1.0.0 (2025-07-09)
+
+
+### Features
+
+* initial release of shiny-command-line package ([fb7585e](https://github.com/steven-pribilinskiy/shiny-command-line/commit/fb7585e74f66b701cf0de61002084a80c74e7035))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
@@ -14,4 +21,4 @@ All notable changes to this project will be documented in this file. See [standa
 * Flag formatting options
 * Syntax highlighting
 * TypeScript support
-* Batch processing capabilities 
+* Batch processing capabilities
