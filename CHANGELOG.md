@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/steven-pribilinskiy/shiny-command-line/compare/v1.0.0...v1.0.1) (2025-07-11)
+
+
+### Bug Fixes
+
+* trigger patch release for export configuration fixes ([b12bfe8](https://github.com/steven-pribilinskiy/shiny-command-line/commit/b12bfe8c85f3289b1395ff3c4361f3b551c6763e))
+
 # 1.0.0 (2025-07-09)
 
 

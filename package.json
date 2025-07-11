@@ -1,6 +1,6 @@
 {
 	"name": "shiny-command-line",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "🌟 Pretty command line formatter with intelligent multiline display, operator detection, flag formatting, and syntax highlighting",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
