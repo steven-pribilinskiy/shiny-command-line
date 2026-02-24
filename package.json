@@ -6,8 +6,8 @@
 	"types": "dist/index.d.ts",
 	"type": "module",
 	"scripts": {
-		"build": "tsc",
-		"dev": "tsc --watch",
+		"build": "tsgo",
+		"dev": "tsgo --watch",
 		"test": "node --test",
 		"lint": "biome check --write --unsafe",
 		"prepare": "npm run build",
@@ -51,20 +51,20 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"chalk": "^5.4.1",
+		"chalk": "^5.6.2",
 		"shell-quote": "^1.8.3"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.1.1",
+		"@biomejs/biome": "^2.4.4",
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
-		"@semantic-release/github": "^11.0.3",
-		"@semantic-release/npm": "^12.0.2",
-		"@types/chalk": "^0.4.31",
-		"@types/node": "^24.0.12",
+		"@semantic-release/github": "^12.0.6",
+		"@semantic-release/npm": "^13.1.4",
+		"@types/chalk": "^2.2.4",
+		"@types/node": "^25.3.0",
 		"@types/shell-quote": "^1.7.5",
-		"semantic-release": "^24.2.6",
-		"typescript": "^5.8.3"
+		"semantic-release": "^25.0.3",
+		"@typescript/native-preview": "^7.0.0-dev.20260223.1"
 	},
 	"files": [
 		"dist",
